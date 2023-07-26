@@ -1,0 +1,18 @@
+{
+    "type": "mongodb",
+    "host": "127.0.0.1",
+    "port": 27017,
+    "database": "test",
+    "useNewUrlParser": true,
+    "synchronize": true,
+    "logging": false,
+    "username": null,
+    "password": null,
+    "entities": [
+        "src/entity/*.js"
+    ],
+    "cli":{
+        "entitiesDir": "src/entity" 
+    }
+    
+}
